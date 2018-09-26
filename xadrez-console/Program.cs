@@ -11,7 +11,7 @@ namespace xadrez_console {
 
             Tabuleiro tab = new Tabuleiro(8, 8);
 
-            Console.WriteLine();
+            Tela.imprimirTabuleiro(tab);
             Console.ReadLine();
         }
     }
